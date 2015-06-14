@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE36D9CA1B2DC67700F3787C /* RCTFlexLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE36D9C91B2DC67700F3787C /* RCTFlexLabel.h */; };
+		DE36D9CC1B2DC67700F3787C /* RCTFlexLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE36D9CB1B2DC67700F3787C /* RCTFlexLabel.m */; };
+		DE36D9E21B2DC76F00F3787C /* RCTFlexLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE36D9E11B2DC76F00F3787C /* RCTFlexLabelManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE36D9C41B2DC67700F3787C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DE36D9CA1B2DC67700F3787C /* RCTFlexLabel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE36D9C61B2DC67700F3787C /* libRCTFlexLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTFlexLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE36D9C91B2DC67700F3787C /* RCTFlexLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTFlexLabel.h; sourceTree = "<group>"; };
+		DE36D9CB1B2DC67700F3787C /* RCTFlexLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTFlexLabel.m; sourceTree = "<group>"; };
+		DE36D9E01B2DC76F00F3787C /* RCTFlexLabelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTFlexLabelManager.h; sourceTree = "<group>"; };
+		DE36D9E11B2DC76F00F3787C /* RCTFlexLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTFlexLabelManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE36D9C31B2DC67700F3787C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE36D9BD1B2DC67700F3787C = {
+			isa = PBXGroup;
+			children = (
+				DE36D9C81B2DC67700F3787C /* RCTFlexLabel */,
+				DE36D9C71B2DC67700F3787C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE36D9C71B2DC67700F3787C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE36D9C61B2DC67700F3787C /* libRCTFlexLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE36D9C81B2DC67700F3787C /* RCTFlexLabel */ = {
+			isa = PBXGroup;
+			children = (
+				DE36D9C91B2DC67700F3787C /* RCTFlexLabel.h */,
+				DE36D9CB1B2DC67700F3787C /* RCTFlexLabel.m */,
+				DE36D9E01B2DC76F00F3787C /* RCTFlexLabelManager.h */,
+				DE36D9E11B2DC76F00F3787C /* RCTFlexLabelManager.m */,
+			);
+			path = RCTFlexLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE36D9C51B2DC67700F3787C /* RCTFlexLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE36D9DA1B2DC67700F3787C /* Build configuration list for PBXNativeTarget "RCTFlexLabel" */;
+			buildPhases = (
+				DE36D9C21B2DC67700F3787C /* Sources */,
+				DE36D9C31B2DC67700F3787C /* Frameworks */,
+				DE36D9C41B2DC67700F3787C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTFlexLabel;
+			productName = RCTFlexLabel;
+			productReference = DE36D9C61B2DC67700F3787C /* libRCTFlexLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE36D9BE1B2DC67700F3787C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ecco Labs, Inc.";
+				TargetAttributes = {
+					DE36D9C51B2DC67700F3787C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = DE36D9C11B2DC67700F3787C /* Build configuration list for PBXProject "RCTFlexLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE36D9BD1B2DC67700F3787C;
+			productRefGroup = DE36D9C71B2DC67700F3787C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE36D9C51B2DC67700F3787C /* RCTFlexLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE36D9C21B2DC67700F3787C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE36D9CC1B2DC67700F3787C /* RCTFlexLabel.m in Sources */,
+				DE36D9E21B2DC76F00F3787C /* RCTFlexLabelManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE36D9D81B2DC67700F3787C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE36D9D91B2DC67700F3787C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE36D9DB1B2DC67700F3787C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE36D9DC1B2DC67700F3787C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE36D9C11B2DC67700F3787C /* Build configuration list for PBXProject "RCTFlexLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE36D9D81B2DC67700F3787C /* Debug */,
+				DE36D9D91B2DC67700F3787C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE36D9DA1B2DC67700F3787C /* Build configuration list for PBXNativeTarget "RCTFlexLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE36D9DB1B2DC67700F3787C /* Debug */,
+				DE36D9DC1B2DC67700F3787C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE36D9BE1B2DC67700F3787C /* Project object */;
+}
