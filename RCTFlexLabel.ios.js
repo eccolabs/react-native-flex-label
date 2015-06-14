@@ -14,7 +14,16 @@ class FlexLabel extends React.Component {
 FlexLabel.propTypes = {
     text: React.PropTypes.string,
     verticalAlign: React.PropTypes.string, //React.PropTypes.oneOf(['top', 'middle', 'bottom']),
-    numberOfLines: React.PropTypes.number
+    numberOfLines: React.PropTypes.number,
+    fontFamily: React.PropTypes.string,
+    fontSize: React.PropTypes.number,
+    fontWeight: React.PropTypes.oneOf(
+        ['normal' /*default*/, 'bold',
+            '100', '200', '300', '400', '500', '600', '700', '800', '900']
+    ),
+    fontStyle: React.PropTypes.oneOf(['normal', 'italic']),
+    lineHeight: React.PropTypes.number,
+    color: React.PropTypes.string,
 }
 
 var RCTFlexLabel = requireNativeComponent('RCTFlexLabel', FlexLabel);

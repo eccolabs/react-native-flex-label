@@ -10,6 +10,10 @@
 
 @interface RCTFlexLabel : UILabel
 
-@property NSString *verticalAlign;
+@property (nonatomic, copy) NSString *verticalAlign;
+
+@property (nonatomic, copy) NSString *text;
+@property (nonatomic, strong) UIColor *textColor;
+@property (nonatomic, strong) UIFont *font;
 
 @end

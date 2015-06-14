@@ -5,7 +5,7 @@
     "url" : "https://github.com/eccolabs/react-native-flex-label.git"
   },
   "version": "0.1.0",
-  "description": "A text label for React Native that handles multiple lines of text with ellipses truncation as well as vertical alignment within ",
+  "description": "A text label for React Native that handles multiple lines of text with ellipses truncation as well as vertical alignment within it's view container.",
   "main": "RCTFlexLabel.ios.js",
   "author": "Wes Reid <wes.reid@eccoapp.com> (http://github.com/wesreid)",
   "nativePackage": true,

@@ -7,6 +7,7 @@
 //
 
 #import "RCTViewManager.h"
+#import "RCTConvert.h"
 #import "RCTFlexLabel.h"
 
 @interface RCTFlexLabelManager : RCTViewManager
